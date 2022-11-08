@@ -1,4 +1,4 @@
-# 616Comics
+# 616 Books
 https://vandreys.github.io/616Comics/
 
 ## Sobre o Projeto
