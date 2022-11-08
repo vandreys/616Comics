@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>616 Comics</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categories</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">X-Men</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Fantastic Four</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Avengers</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Inhumans</a>
+                </li>
+            </ul>
+            <img src="img/Logotipo Marvel.svg" alt="Logo da 616 Comics" class="container__imagem container__imagem-marvel">
+            <h1 class="container__titulo"><b class="container__titulo--negrito">616</b>Books</h1>
+        </div>
+
+        <ul class="opções">
+            <input type="checkbox" id="opções__menu" class="opções__botão">
+            <label for="opções__menu" class="opções__rotulo">
+                <li class="opções__item">Categories</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">X-Men</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Fantastic Four</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Avengers</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Inhumans</a>
+                </li>
+            </ul>
+            <li class="opções__item"><a href="#" class="opções__link">Favorites</a></li>
+            <li class="opções__item"><a href="#" class="opções__link">My Bookcase</a></li>
+        </ul>
+        <div class="container">
+            <a href="#">
+                <img src="img/Favoritos.svg" alt="Meus Favoritos" class="container__imagem container__imagem--transparente">
+            </a>
+            <a href="#" class="container__link">
+                <img src="img/Compras.svg" alt="Carrinhos de Compras" class="container__imagem">
+                <p class="container__texto">My Bag</p>
+            </a>
+            <a href="#" class="container__link">
+                <img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem">
+                <p class="container__texto">My Profile</p>
+            </a>
+        </div>
+    </header>
+
+    <section class="banner">
+        <h2 class="banner__titulo">Already know where to start?</h2>
+        <p class="banner__texto">Find on our bookshelf the greatest sagas of the Marvel universe!</p>
+        <input type="search" class="banner__pesquisa" placeholder="What's your next read?">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">New exclusive stories</h2>
+            <!-- Slider main container -->
+            <div class="carrossel__container">
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="img/atom.jpeg" alt="Comics about Children of the Atom."></div>
+                        <div class="swiper-slide"><img src="img/cw.jpg" alt="Comics about Civil War"></div>
+                        <div class="swiper-slide"><img src="img/hulkling.jpg" alt="Comics about Empyre"></div>
+                        <div class="swiper-slide"><img src="img/fantastic4.jpg" alt="Comics about Fantastic Four."></div>
+                        <div class="swiper-slide"><img src="img/x-men2.jpg" alt="Comics about X-Men"></div>
+                        <div class="swiper-slide"><img src="img/uncanny_inhumans_1_timely.jpg" alt="Comics about Inhumans"></div>
+                    </div>
+                
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                </div>
+
+                <div class="card">
+                    <!--primeira linha-->
+                    <div class="card__descrição">
+                        <!--primeira coluna-->
+                        <div class="descrição">
+                            <h3 class="descrição__titulo">Perhaps you are also interested in...</h3>
+                            <h2 class="descrição__titulo-livro">X-Men </h2>
+                            <p class="descrição__texto">The X-Men stories feature characters from different ethnicities and are perhaps the most multicultural comic book ever published by Marvel.</p>
+                        </div>
+                        <!--segunda coluna-->
+                        <img src="img/x-men1.jpg"class="descrição__imagem"  alt="Comics about X-Men">
+                    </div>
+
+                    <!--segunda linha-->
+                    <div class="card__botões">
+                        <!--primeira coluna-->
+                        <ul class="botões">
+                            <li class="botões__item"> <img src="img/Favoritos.svg" alt="favoritar livro"></li>
+                            <li class="botões__item"> <img src="img/Compras.svg" alt="Adicionar ao carrinho"></li>
+                        </ul>
+                        <!--segunda coluna-->
+                        <a href="#" class="botões__ancora">Know more</a>
+                    </div>
+                </div>
+             </div>
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Discover more comics</h2>
+            <!-- Slider main container -->
+        <div class="carrossel__container">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="img/youngavengers.jpg" alt="Comics about young avengers."></div>
+            <div class="swiper-slide"><img src="img/sue.jpg" alt="Comics about fantastic 4"></div>
+            <div class="swiper-slide"><img src="img/phoenix.jpg" alt="Comics about X-Men"></div>
+            <div class="swiper-slide"><img src="img/cwii.jpg" alt="Comics about Civil War."></div>
+            <div class="swiper-slide"><img src="img/ultima.jpg" alt="Comics about Ultimate Marvel universe"></div>
+            <div class="swiper-slide"><img src="img/x-men1.jpg" alt="Comics about X-Men"></div>
+        </div>
+    
+            <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="card">
+        <!--primeira linha-->
+        <div class="card__descrição">
+            <!--primeira coluna-->
+            <div class="descrição">
+                <img src="img/Estrelinhas.svg" alt="5 estrelas">
+                <h3 class="descrição__titulo">The Best Marvel Graphic Novels of All Time</h3>
+                <h2 class="descrição__titulo-livro">Secret Wars</h2>
+                <p class="descrição__texto">Secret Wars is one of the most monumental events in not just Marvel Comics history, but comics as a whole. </p>
+            </div>
+            <!--segunda coluna-->
+            <img src="img/Guerras Secretas.jpg"class="descrição__imagem"  alt="Comics about Secret Wars">
+        </div>
+
+        <!--segunda linha-->
+        <div class="card__botões">
+            <!--primeira coluna-->
+            <ul class="botões">
+                <li class="botões__item"> <img src="img/Favoritos.svg" alt="favoritar livro"></li>
+                <li class="botões__item"> <img src="img/Compras.svg" alt="Adicionar ao carrinho"></li>
+            </ul>
+            <!--segunda coluna-->
+            <a href="#" class="botões__ancora">Know more</a>
+        </div>
+    </div>
+</div>
+    </section>
+
+    <section class="topicos">
+        <h2 class="topicos__titulos">Most Powerful Teams</h2>
+        <ul class="topicos__lista">
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Avengers</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">X-Men</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Fantastic Four</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Inhumans</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">The Defenders</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Young Avengers</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">X-Factor</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Guardians Of The Galaxy</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="contato">
+        <div class="contato__descrição">
+            <h2 class="contato__titulo">A WORLD OF COMICS AWAITS!</h2>
+            <p class="contato__texto">E-book updates, new comics, promotions and more.</p>
+        </div>
+        <input type="email" placeholder="Register your email" class="contato__email">
+    </section>
+
+    <hr/>
+
+    <footer class="rodapé">
+        <h2 class="rodapé__titulo">&copy;<b class="rodapé__titulo--negrito"> 616</b>Books</h2>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {slidesPerView: 3, spaceBetween: 10, pagination: {el: '.swiper-pagination', type: 'bullets',},});
+    </script>
+</body>
+</html>
