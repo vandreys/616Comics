@@ -5,28 +5,30 @@ https://vandreys.github.io/616Comics/
 
 
 
-HZC é uma aplicação front-end que consiste em um layout de uma página de vendas e curiosidades de Quadrinhos da Marvel, sendo responsivo para desktop, tablet e mobile.
+616 Comics é uma aplicação front-end que consiste em um layout de uma página de vendas e curiosidades sobre quadrinhos da Marvel, sendo responsivo para desktop, tablet e mobile.
 
+Layote não é estatico, atraves de um puglin com JavaScript temos um carrosel que movimenta as Comics em exposição. Não só isso como o Menu no header é funcional através de HTML e CSS.
 
 ## Layout Mobile
-![1 d](https://user-images.githubusercontent.com/109192128/200492155-38048cf4-4266-4d8b-9910-8704fe2d1959.jpg)
-![1 t](https://user-images.githubusercontent.com/109192128/200492192-a025a66e-dcb7-4ddd-a972-d4a93e7c3787.jpg)
-![1](https://user-images.githubusercontent.com/109192128/200492263-7c65971c-5843-4add-b8bf-0cf6309b52e6.jpg)
 
+![1](https://user-images.githubusercontent.com/109192128/200492263-7c65971c-5843-4add-b8bf-0cf6309b52e6.jpg)
 
 ## Layot Tablet
 
+![1 t](https://user-images.githubusercontent.com/109192128/200492192-a025a66e-dcb7-4ddd-a972-d4a93e7c3787.jpg)
 
 ## Layot Web
 
+![1 d](https://user-images.githubusercontent.com/109192128/200492155-38048cf4-4266-4d8b-9910-8704fe2d1959.jpg)
 
-### Curiosidades do projeto
+### Curiosidades do projeto.
 
-- Relacionar o flexbox com maneiras já conhecidas de posicionamento de elementos.
-- Diferencie o flexbox do grid.
-- Prototipe o layout de um cartão utilizando propriedades básicas do grid.
-- Resolver os problemas com novas propriedades de grid.
-- Identifique problemas como: repetição de código, manutenção e unidades de medida.
+
+- Usei flexbox para posicionamento de elementos no Card.
+- Menu no header funcional com HTML e CSS.
+- Através do Media Queries deixamos o Projeto totalmente responsivo.
+- O nome "616" faz referência ao universo principal da Marvel nos quadrinhos.
+
 
 ### Front-end
 
