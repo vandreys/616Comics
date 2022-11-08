@@ -5,9 +5,7 @@ https://vandreys.github.io/616Comics/
 
 
 
-HZC é uma aplicação front-end e mobile construida durante o curso CSS: dispondo elementos com Flexbox e Grid, curso oferecido pelo Alura.
-
-A aplicação consiste em um layout de uma página de comunidade de skate, sendo responsivo para desktop e mobile.
+HZC é uma aplicação front-end que consiste em um layout de uma página de vendas e curiosidades de Quadrinhos da Marvel, sendo responsivo para desktop, tablet e mobile.
 
 
 ## Layout Mobile
