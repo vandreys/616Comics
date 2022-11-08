@@ -7,7 +7,7 @@ https://vandreys.github.io/616Comics/
 
 616 Comics é uma aplicação front-end que consiste em um layout de uma página de vendas e curiosidades sobre quadrinhos da Marvel, sendo responsivo para desktop, tablet e mobile.
 
-Layote não é estatico, atraves de um puglin com JavaScript temos um carrosel que movimenta as Comics em exposição. Não só isso como o Menu no header é funcional através de HTML e CSS.
+Layout não é estático, através de um puglin com JavaScript temos um carrossel que movimenta as Comics em exposição. Não só isso como o Menu no header é funcional através de HTML e CSS.
 
 ## Layout Mobile
 
