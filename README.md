@@ -1,5 +1,5 @@
 # 616 Books
-https://vandreys.github.io/616Comics/
+https://vandreys.github.io/616books/
 
 ## Sobre o Projeto
 
