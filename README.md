@@ -5,7 +5,7 @@ https://vandreys.github.io/616books/
 
 
 
-616 Comics é uma aplicação front-end que consiste em um layout de uma página de vendas e curiosidades sobre quadrinhos da Marvel, sendo responsivo para desktop, tablet e mobile.
+616 Books é uma aplicação front-end que consiste em um layout de uma página de vendas e curiosidades sobre quadrinhos da Marvel, sendo responsivo para desktop, tablet e mobile.
 
 Layout não é estático, através de um puglin com JavaScript temos um carrossel que movimenta as Comics em exposição. Não só isso como o Menu no header é funcional através de HTML e CSS.
 
