@@ -1,7 +1,7 @@
 # 616 Books
 https://vandreys.github.io/616books/
 
-## Sobre o Projeto.
+## Sobre o Projeto
 
 
 
